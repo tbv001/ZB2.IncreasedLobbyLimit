@@ -53,7 +53,7 @@ public static class LobbyLayout
 
             var cloneObject = UnityEngine.Object.Instantiate(source.gameObject, source.transform.parent, true);
             createdObjects.Add(cloneObject);
-            cloneObject.name = $"{source.gameObject.name}_BiggerLobby_{index + 1}";
+            cloneObject.name = $"{source.gameObject.name}_ILL_{index + 1}";
 
             var clone = cloneObject.GetComponent<LobbySlotView>();
             if (clone == null || clone.playerName == source.playerName)

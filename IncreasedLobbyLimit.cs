@@ -10,7 +10,7 @@ namespace IncreasedLobbyLimit;
 public class Plugin : BaseUnityPlugin
 {
     internal new static ManualLogSource Logger;
-    private const string PluginGuid = "com.theblackvoid.biggerlobby";
+    private const string PluginGuid = "com.theblackvoid.increasedlobbylimit";
     private readonly Harmony _harmony = new(PluginGuid);
     public const int MaxPlayers = 24;
 
