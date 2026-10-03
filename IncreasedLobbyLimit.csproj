@@ -40,5 +40,8 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>$(SteamInstallPath)\steamapps\common\Zumbi Blocks 2 Open Alpha\ZumbiBlocks2_Data\Managed\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Facepunch.Steamworks.Win64">
+      <HintPath>$(SteamInstallPath)\steamapps\common\Zumbi Blocks 2 Open Alpha\ZumbiBlocks2_Data\Managed\Facepunch.Steamworks.Win64.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
